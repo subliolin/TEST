@@ -1,10 +1,7 @@
 package main
 
-import (
-	"TEST/common"
-	"fmt"
-)
+import "TEST/get_ip_and_port"
 
-func main()  {
-	fmt.Println(common.A)
+func main() {
+	get_ip_and_port.GetIP()
 }
